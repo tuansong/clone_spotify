@@ -1,0 +1,266 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+
+#navbar {
+    overflow: hidden;
+    height: 80px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+#navbar .spotify-logo {
+    width: 132px;
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul li {
+    display: inline;
+    margin: 15px;
+}
+
+ul {
+    position: absolute;
+    top: 15px;
+    right: 20%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#banner {
+    height: 660px;
+    background-color: pink;
+    position: relative;
+    background: linear-gradient(red, yellow);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    z-index: 0;
+}
+
+#banner img {
+    width: 80%;
+    position: absolute;
+    left: 15%;
+    top: -40%;
+    z-index: 1;
+}
+
+.main-title {
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 500px;
+    font-weight: 300;
+}
+
+.btn-premium {
+    background-color:transparent;
+    border: 1px solid white;
+}
+.btn-premium:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-free:hover {
+    cursor: pointer;
+    background-color: #97f461;
+}
+
+#white-1 {
+    height: 650px;
+    background-color: white;
+    position: relative;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.info {
+    width: 480px;
+    left: 18%;
+    position: absolute;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.album {
+    width: 560px;
+    height: 560px;
+    position: absolute;
+    right: 18%;
+    box-shadow: 2px 2px 2px gray;
+}
+.dishes {
+    margin: -3px;
+    width: 280px;
+    height: 280px;
+}
+
+#color-1 {
+    height: 600px;
+    background-color: pink;
+    position: relative;
+    background:  linear-gradient(#fae62d -30%,#f037a5 150%);
+}
+
+.phone {
+    width: 300px;
+    height: 624px;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    border: 2px solid white;
+    border-radius: 25px;
+
+    color: white;
+}
+
+.phone .phone-screen {
+    text-align: center;
+}
+
+.phone .little-circle {
+    display: block;
+    margin: auto;
+}
+
+.album-img{
+    display: inline-block;
+    width: 115px;
+    font-size: 80%;
+}
+
+.album-img img {
+    width: 115px;
+    height: 115px;
+}
+
+.phone-screen .app-menu {
+    position: relative;
+    left: 20%;
+}
+
+.phone-screen .app-menu ul {
+    margin-top: 0px;
+}
+
+.phone-screen .app-menu li {
+    list-style-type: none;
+    text-align: left;
+
+    width: 246px;
+    padding: 8px 2px;
+}
+
+.icon-right {
+    display: inline-block;
+    position: relative;
+}
+
+.mobile-app-info {
+    width: 500px;
+    position: relative;
+    text-align: left;
+    left: 50%;
+    top: 10%;
+
+    color: white;
+    font-size: 130%;
+    font-weight: 500;
+}
+.bubble-img {
+    position: absolute;
+    top: 0%;
+    z-index: 0;
+}
+
+#white-2 {
+    height: 510px;
+    background-color: white;
+    position: relative;
+}
+.device-intro .device-title {
+    font-size: 250%;
+    font-weight: 900;
+}
+
+.device-intro {
+    position: absolute;
+    width: 485px;
+    height: 244px;
+
+    left: 20%;
+    top: 20%;
+}
+
+.device-intro ul li{
+    display: inline;
+    margin: 10px;
+}
+
+.device-intro ul{
+    position: absolute;
+    margin-top: 30%;
+    left:-10%;
+    width: 485px;
+}
+
+.device-intro .device-list-2 ul {
+    margin-top: 40%;
+    color: #4CAF50;
+}
+
+.device-img {
+    width: 555px;
+    height: 231px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+
+#color-2 {
+    height: 750px;
+    background-color: pink;
+    position: relative;
+}
+
+#footer {
+    height: 500px;
+    background-color: black;
+    position: relative
+}
